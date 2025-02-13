@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+/* Scrollbar */
+/* ::-webkit-scrollbar {
+    background-color: #151515;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#151515, #bc26d6, #fe7ab6 );
+    border-radius: 100px;
+  } */
+
+/* base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    
+}
+
+
+:root {
+    font-family: "Poppins", monospace;
+    font-size: 16px;
+    --primary: #bc26d6;
+    --secondary: #fe7ab6;
+    --primary-light: #FDFDFC;
+    /* --secondary-light: #F1F0EE; */
+    --primary-dark: #151515;
+    --secondary-dark: #252525;
+}
+
+
+html {
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: auto;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    margin: 0;
+    padding: 0;
+    /* background: #151515 !important; */
+    font-size: 16px;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+p {
+    color: var(--primary-light);
+}
+
+
+/* #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #42b983;
+  } */
