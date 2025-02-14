@@ -8,6 +8,11 @@
   <router-view/>
 </template>
 
+<script>
+
+
+</script>
+
 <style src="./assets/CSS/styles.css">
 
 </style>
